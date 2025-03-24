@@ -1,0 +1,104 @@
+/* Estilos generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.logoClass {
+    width: 60px;  /* Ajusta el tamaño del logo */
+    height: auto;
+    margin-right: 15px; /* Agrega un margen a la derecha del logo */
+    vertical-align: middle; /* Alinea verticalmente el logo con el menú */
+}
+
+.nav-barClass {
+    background-color: #8782b6;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Convierte el nav en un contenedor flexbox */
+    align-items: center;  /* Alinea verticalmente los elementos del nav */
+    justify-content: center; /* Centra horizontalmente los elementos del nav */
+}
+
+.nav-listClass {
+    list-style: none;
+    text-align: center;
+    display: flex; /* Añadido para mostrar los elementos en línea */
+}
+
+.nav-itemClass {
+    /* display: inline; */
+    margin: 0 15px;
+}
+
+.nav-linkClass {
+    color: #f30b0b;
+    text-decoration: none; /* Elimina los subrayados */
+    font-weight: bold;
+}
+
+.headingClass {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sectionClass {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.listClass {
+    list-style: none;
+    padding: 0;
+}
+
+.list-itemClass {
+    margin-bottom: 10px;
+}
+
+.linkClass {
+    color: #001aff;
+    text-decoration: none;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.footerClass {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #eee;
+}
+
+/* Estilos específicos para la página "Equipos" */
+.teams-listClass {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teams-itemClass {
+    margin: 10px;
+}
+
+/* Estilos específicos para la página "Resultados" */
+.results-itemClass {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Estilos específicos para la página "En Directo" */
+.live-itemClass {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
